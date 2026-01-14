@@ -43,9 +43,6 @@ htmlcov/
 .DS_Store
 Thumbs.db
 
-# Model files (large binary files)
-*.model
-
 # Local environment
 .env
 .env.local
