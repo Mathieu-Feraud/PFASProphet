@@ -1,9 +1,9 @@
 [project]
 name = "PFASProphet"
 version = "0.1.0"
-description = "A short description of your package"
-authors = [{ name = "Mathieu Feraud", email = "mathieu.feraud@uq.edu.au" }]
-license = "MIT"
+description = "ML-based PFAS prediction from mass spectrometry data"
+authors = [{ name = "Mathieu Feraud", email = "Mathieu.Feraud@outlook.com" }]
+license = { text = "MIT" }
 readme = "README.md"
 requires-python = ">=3.12, <3.13"
 dependencies = [
@@ -22,8 +22,8 @@ test = ["pytest >= 8.0.0"]
 pfasprophet = "PFASProphet.cli:main" 
 
 [project.urls]
-Homepage = ""
-"Bug Tracker" = "github.com/issues"
+Homepage = "https://github.com/Mathieu-Feraud/PFASProphet"
+"Bug Tracker" = "https://github.com/Mathieu-Feraud/PFASProphet/issues"
 
 [build-system]
 requires = ["hatchling"]
