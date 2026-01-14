@@ -23,3 +23,10 @@ pip install PFASProphet
 - **Predict from lists**: `pfasprophet --mass "[248.9461]" --fragments "[[63.9624]]"`
 - **Predict from CSV**: `pfasprophet --file data.csv`
 - **Help**: `pfasprophet` or `pfasprophet --help`
+
+### Python examples
+- See [tests/examples_for_users.py](tests/examples_for_users.py) for copy-paste snippets:
+	- Predict from in-memory lists
+	- Predict from CSV (default and custom column names)
+	- Neutral masses (`is_ionised=False`)
+	- Append predictions back to a CSV (`in_file=True`)
