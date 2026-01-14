@@ -13,11 +13,18 @@ A tool for giving a score on the likelihood of PFAS (Per- and Polyfluoroalkyl Su
 - See examples for usage.
 
 ## Installation
-1. Clone the repository: `git clone https://github.com/yourusername/PFASProphet.git`
+
+### Via PyPI (Recommended)
+```bash
+pip install PFASProphet
+```
+
+### From Source
+1. Clone the repository: `git clone https://github.com/Mathieu-Feraud/PFASProphet.git`
 2. Navigate to the directory: `cd PFASProphet`
 3. Create a virtual environment: `python -m venv .venv`
 4. Activate it: `.venv\Scripts\activate` (Windows) or `source .venv/bin/activate` (Linux/Mac)
-5. Install: `pip install -e .`
+5. Install in development mode: `pip install -e .`
 
 ## Usage
 ### CLI Examples
