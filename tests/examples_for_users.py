@@ -1,7 +1,12 @@
-"""Minimal copy-paste examples for PFASProphet.
+"""Example usage of PFASProphet predictor.
 
-Run directly to see predictions from in-memory lists and from the sample CSV.
-Commented to show what you need to change (your masses/columns) vs. what can stay.
+This script demonstrates how to use the PFASProphet class to make predictions
+Example 1: Predict from direct lists of masses and fragments.
+Example 2: Predict from a CSV file with default column names.
+Example 3: Predict from neutral masses.
+Example 4: Predict from a CSV file with custom column names.
+Example 5: Append scores back into a CSV file.
+
 """
 
 import shutil
